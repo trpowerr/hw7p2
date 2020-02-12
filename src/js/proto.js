@@ -10,6 +10,5 @@ Character.prototype.damage = function (points) {
 	return this.health - points * (1 - this.defence / 100);
 }
   
-const enemyOne = new Character ('Misha', 'Demon');
+export const enemyOne = new Character ('Misha', 'Demon');
 
-export default enemyOne;

@@ -1,8 +1,8 @@
-import enemyOne from '../proto';
+import {enemyOne} from '../proto';
 
 test('should calculate total for purchases', () => {
-  const expected = 52;
-  const received = enemyOne.damage(80);
+  const expected = 58;
+  const received = enemyOne.damage(70);
 
   expect(received).toBe(expected);
 });
